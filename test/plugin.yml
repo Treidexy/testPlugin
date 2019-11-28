@@ -1,0 +1,32 @@
+name: test
+main: me.Treidex.test.Main
+author: Treidex
+version: 1.0
+api-version: 1.14
+commands:
+ home:
+  description: Brings you home
+  usage: /<command>
+  aliases: hm
+ spectator:
+  description: Brings you into spectator
+  usage: /<command>
+  aliases: sp
+ sethome:
+  description: Sets your home
+  usage: /<command>
+  aliases: sh
+ back:
+  description: Brings you to your last death point
+  usage: /<command>
+ afk:
+  description: Makes you AFK
+  usage: /<command>
+ survival:
+  description: Brings you into survival
+  usage: /<command>
+  aliases: sv
+ die:
+  description: Suicide
+  usage: /<command>
+  aliases: suicide
